@@ -355,7 +355,7 @@ class Topnav extends React.Component {
               <i className="iconfont icon-busy Topnav__brand-icon" />
               busy
             </Link>
-            <span className="Topnav__version">beta</span>
+            <span className="Topnav__version">app</span>
           </div>
           <div className={classNames('center', { mobileVisible: searchBarActive })}>
             <div className="Topnav__input-container">
