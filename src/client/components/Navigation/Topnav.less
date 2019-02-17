@@ -9,6 +9,21 @@
   line-height: 52px;
   border-bottom: @base-border;
 
+  &__imageIcon {
+    transform: rotate(0deg);
+    transition: 250ms;
+    &:hover,
+    &:visited,
+    &:link,
+    &:active {
+      -webkit-transition: scale(1.1);
+      -moz-transition: scale(1.1);
+      -o-transition: scale(1.1);
+      transform: scale(1.1);
+      transition: 250ms;
+    }
+  }
+
   &__brand {
     font-size: 30px;
     font-weight: bold;
@@ -100,10 +115,6 @@
         & > a {
           color: @tertiary-color !important;
           font-weight: 600 !important;
-
-          &.Topnav__link--action {
-            margin-top: 7px;
-          }
 
           &:hover {
             color: @quaternary-color !important;

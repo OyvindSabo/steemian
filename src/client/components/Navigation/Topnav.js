@@ -177,7 +177,13 @@ class Topnav extends React.Component {
               mouseEnterDelay={1}
             >
               <Link to="/editor" className="Topnav__link Topnav__link--action">
-                <i className="iconfont icon-write" />
+                <img
+                  src="/images/icons/icon-pencil-72x72.png"
+                  className="Topnav__imageIcon"
+                  width="38px"
+                  height="38px"
+                  alt="Write post"
+                />
               </Link>
             </BTooltip>
           </Menu.Item>
